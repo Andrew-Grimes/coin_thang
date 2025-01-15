@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bot Installer</title>
+    <title>NueroTrade</title>
     <style>
         body {
             margin: 0;
@@ -12,44 +12,35 @@
             color: #ffffff;
         }
         header {
+            position: sticky;
+            top: 0;
+            z-index: 1000;
             display: flex;
             justify-content: space-between;
             align-items: center;
-            padding: 20px 40px;
+            padding: 10px 40px;
             background: #1c1c1c;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
         }
-        header .logo {
+        .logo {
             font-size: 1.5rem;
             font-weight: bold;
             color: #ffffff;
         }
-        header nav a {
+        nav {
+            display: flex;
+            align-items: center;
+        }
+        nav a {
             color: #ffffff;
             text-decoration: none;
-            margin-left: 20px;
+            margin: 0 15px;
             font-size: 1rem;
         }
-        header nav a:hover {
+        nav a:hover {
             color: #00acee;
         }
-        .hero {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            text-align: center;
-            padding: 80px 20px;
-            background: url('https://via.placeholder.com/1920x1080') no-repeat center center/cover;
-            color: #ffffff;
-        }
-        .hero h1 {
-            font-size: 3rem;
-            margin-bottom: 20px;
-        }
-        .hero p {
-            font-size: 1.2rem;
-            margin-bottom: 40px;
-        }
-        .hero button {
+        .cta-button {
             padding: 10px 20px;
             font-size: 1rem;
             color: #ffffff;
@@ -57,53 +48,31 @@
             border: none;
             border-radius: 5px;
             cursor: pointer;
-        }
-        .hero button:hover {
-            background: #005bb5;
-        }
-        .features {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 20px;
-            padding: 40px;
-        }
-        .feature {
-            background: #2a2a2a;
-            padding: 20px;
-            border-radius: 10px;
-            text-align: center;
-        }
-        .feature h3 {
-            font-size: 1.5rem;
-            margin-bottom: 10px;
-        }
-        .feature p {
-            font-size: 1rem;
-        }
-        footer {
-            text-align: center;
-            padding: 20px;
-            background: #1c1c1c;
-            color: #ffffff;
-        }
-        footer a {
-            color: #00acee;
             text-decoration: none;
+        }
+        .cta-button:hover {
+            background: #005bb5;
         }
     </style>
 </head>
 <body>
     <header>
-        <div class="logo">BotInstaller</div>
+        <div class="logo"> <!-- Add your minimalist logo here --> </div>
         <nav>
-            <a href="#features">Features</a>
-            <a href="#about">About</a>
-            <a href="#contact">Contact</a>
+            <a href="#bot-name">NueroTrade</a>
+            <a href="#commands">Commands</a>
+            <a href="#help">Help</a>
+            <a href="#status">Status</a>
+        </nav>
+        <nav>
+            <a href="#search">🔍</a>
+            <a href="#profile">👤</a>
+            <a href="#download" class="cta-button">Download Here</a>
         </nav>
     </header>
 
     <section class="hero">
-        <h1>Welcome to BotInstaller</h1>
+        <h1>Welcome to NueroTrade</h1>
         <p>Your ultimate tool for seamless bot integration.</p>
         <button>Get Started</button>
     </section>
@@ -124,7 +93,7 @@
     </section>
 
     <footer>
-        <p>&copy; 2025 BotInstaller. All rights reserved. <a href="#">Privacy Policy</a></p>
+        <p>&copy; 2025 NueroTrade. All rights reserved. <a href="#">Privacy Policy</a></p>
     </footer>
 </body>
 </html>
