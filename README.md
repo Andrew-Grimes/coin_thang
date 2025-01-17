@@ -1,3 +1,5 @@
+@authors Andrew Grimes, Hayden Desmond, Ethan Kerstiens
+
 Mosaic Project Overview
 Project Name: Mosaic
 Description: Mosaic is a user-friendly, UI-based AI agent platform that leverages context learning and integrates with a cryptocurrency payment or token system.
