@@ -72,33 +72,7 @@ Use clear commit messages.
 Provide relevant tests, especially for new agent tools or payment flows.
 Issues & Feature Requests
 
-Use GitHub Issues to track bugs, enhancements, or proposed features.
-Tag issues with labels like bug, feature, enhancement to help prioritize.
-6. Getting Started (At a Glance)
-Clone the Repository
-bash
-Copy
-git clone https://github.com/YourOrg/mosaic.git
-Frontend Setup
-bash
-Copy
-cd mosaic/frontend
-npm install
-npm run dev
-Backend Setup
-bash
-Copy
-cd mosaic/backend
-pip install -r requirements.txt
-python main.py
-Environment Variables
-Create a .env file to store API keys (e.g., OpenAI), database credentials, and crypto-related secrets.
-Browse to http://localhost:3000 (or whichever port) to access the Mosaic UI.
-7. Contact & Support
-Lead Developer / Project Maintainer: [Your Name / Organization]
-Email: [email@example.com]
-Website: [yourwebsite.com]
-Community Chat: Slack/Discord link (if applicable)
+
 Notes for Future Collaborators (Human or AI)
 Context Memory: Mosaic is heavily reliant on context-based learning. Check the vector store integration and LangChain memory modules for any changes before adding new features.
 Crypto Integration: If you’re extending payment logic, ensure that transaction checks, balances, and on-chain/off-chain flows are consistent with the existing codebase.
